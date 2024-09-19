@@ -16,6 +16,7 @@
         />
 
     <TextView
+        android:id="@+id/result_text"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Cuantos años tiene el perro?"
@@ -23,10 +24,19 @@
         android:padding="16dp"/>
 
     <EditText
+        android:id="@+id/age_id"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Edad Actual"
         android:padding="16dp"
         android:inputType="number"/>
+
+    <Button
+        android:id="@+id/boton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calclar"
+
+        android:layout_margin="16dp"/>
 
 </LinearLayout>
